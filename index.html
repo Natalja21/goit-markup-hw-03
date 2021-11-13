@@ -11,11 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
     <header class="header">
+      <div class="container header-container">
       <nav class="navigation">
         <a class="logo" href="#">Web<span class="logo-element">Studio</span></a>
         <ul class="header-list list">
@@ -41,16 +45,20 @@
           <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
 
     <main>
       <!-- Блок с заголовком -->
       <section class="hero">
+        <div class="container container-hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button class="hero-button" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Блок чем занимаемся -->
-      <section class="about-section">
+      <section class="about-section section">
+        <div class="container">
         <ul class="about-list list">
           <li class="about-item">
             <h3 class="about-subtitle">Внимание к деталям</h3>
@@ -110,10 +118,12 @@
             />
           </li>
         </ul>
+        </div>
       </section>
 
       <!-- Блок Наша команда -->
-      <section class="command-section">
+      <section class="command-section section">
+        <div class="container">
         <h2 class="command-title">Наша команда</h2>
         <ul class="command-list list">
           <li class="command-item">
@@ -157,11 +167,13 @@
             <p lang="en" class="command-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <!-- Подвал -->
     <footer class="footer-section">
+      <div class="container">
       <a href="#" class="footer-logo"
         >Web<span class="logo-element-footer">Studio</span></a
       >
@@ -188,6 +200,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
