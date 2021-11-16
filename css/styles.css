@@ -62,8 +62,9 @@ img {
 }
 /* .........HEADER........ */
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   background: #ffffff;
-  
   outline:  1px solid #ECECEC;
 }
 
@@ -71,8 +72,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  
 }
 
 .navigation,
@@ -84,17 +84,16 @@ img {
 
 .logo,
 .footer-logo {
-  color: #2196f3;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  color: #2196f3;
 }
 .logo {
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  
 }
 .logo-element {
   color: #212121;
@@ -164,6 +163,7 @@ img {
   padding: 10px 32px;
   background-color: #2196f3;
   color: var(--second-buttons-color);
+  border-radius: 4px;
 }
 /* ...........ABOUT.......... */
 .about-section {
