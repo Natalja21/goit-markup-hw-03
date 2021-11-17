@@ -11,7 +11,7 @@ body {
   color: #212121;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -83,7 +83,7 @@ img {
 
 .logo,
 .footer-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -336,8 +336,7 @@ img {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  
 }
 .img-projects {
   display: block;
